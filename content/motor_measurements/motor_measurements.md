@@ -28,3 +28,4 @@ Motors@Work allows entry of the following readings from a motor.
 - Vibration
 - Surge/Motor Circuit
 - Some New Text
+- [My Test](/My-Test)
