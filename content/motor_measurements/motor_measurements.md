@@ -26,6 +26,4 @@ Motors@Work allows entry of the following readings from a motor.
 - Total Harmonic Distortion (THD)
 - Insulation Resistance
 - Vibration
-- Surge/Motor Circuit
-- Some New Text
-- [My Test](/My-Test)
+- Surge/Motor Circuit 
