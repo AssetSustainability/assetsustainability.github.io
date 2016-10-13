@@ -15,7 +15,7 @@ Motor measurements drive much of the analysis in Motors@Work.  When you enter a 
 Motors@Work allows entry of the following readings from a motor.
 
 - [Voltage](/motor-measurement-voltage) AB
-- [Voltage](/voltage_unbalance) BC
+- [Voltage](/motor-measurement-voltage) BC
 - Voltage CA
 - Current A
 - Current B
