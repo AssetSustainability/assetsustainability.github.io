@@ -21,7 +21,7 @@ Motors@Work allows entry of the following readings from a motor.
 - Current B
 - Current C
 - [Power Factor](/motor-measurement-power-factor)
-- Measured Speed
+- [Measured Speed](/voltage-compensated-slip)
 - Power Draw
 - Total Harmonic Distortion (THD)
 - Insulation Resistance
