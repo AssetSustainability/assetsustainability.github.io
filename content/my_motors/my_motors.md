@@ -24,7 +24,7 @@ The My Motors page first opens to a grid that lists all of the motors you track 
 
 In the leftmost column of the grid, there are Edit, Delete, and Details buttons.
 
-**Tip: Select a motor to enable details, measurement, and analysis tabs.**
+**Tip: Select a motor to enable details, measurement, and analysis tabs.***
 
 ####<a name="Grid Popup"></a> Edit (Grid popup)
 Click the edit button in the leftmost column of the grid to bring up a quick edit popup that allows you to modify the values of some of the most used motor fields including description, speed, and size.  All fields viewable in the grid are available in the grid edit popup.
