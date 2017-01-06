@@ -23,7 +23,7 @@ The My Motors page is an easy way to list, add, remove, and view all of your mot
 The My Motors page first opens to a grid that lists all of the motors you track in Motors@Work..  Filter and sort the motors available in the grid using Motors@Work [filtering and sorting](/filter-and-sort-overview).
 
 In the leftmost column of the grid, there are Edit, Delete, and Details buttons.
-.
+
 **Tip: Select a motor to enable details, measurement, and analysis tabs.**
 
 ####<a name="Grid Popup"></a> Edit (Grid popup)
