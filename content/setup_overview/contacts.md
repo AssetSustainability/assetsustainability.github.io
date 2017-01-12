@@ -2,7 +2,7 @@
 title: Motors@Work Setup Overview
 layout: helpfile
 categories: ['setup-overview']
-permalink: Contacts/
+permalink: contacts/
 sequence: 1
 tags:
 - Contacts
