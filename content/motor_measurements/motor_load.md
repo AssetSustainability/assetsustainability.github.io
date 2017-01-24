@@ -13,7 +13,7 @@ Motors@Work has four methods of calculating motor load.  The system will use the
 formula for the data entered in the measurement.  If data used in the calculation is
 missing, the system will attempt to use the next strategy in the list.
 
-- [kW Ratios – Power Based](/kw-ratio-power-based)
+- [kW Ratio – Power Based](/kw-ratio-power-based)
 - [kW Ratio – Voltage based](/kw-ratio-voltage-based)
 - [Voltage Compensated Amps Ratio](/voltage-compensated-amps-ratio)
 - [Voltage Compensated Slip](/voltage-compensated-slip)
