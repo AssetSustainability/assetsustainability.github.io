@@ -2,7 +2,7 @@
 title: Motors@Work Setup Overview
 layout: helpfile
 categories: ['setup-overview']
-permalink: setup-screen/
+permalink: /my-motors/setup-screen/
 sequence: 1
 tags:
 - setup-screen
