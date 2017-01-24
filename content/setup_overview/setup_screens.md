@@ -12,24 +12,24 @@ tags:
 
 - [Company Profile](/company-profile) 
 
-**Contacts**
+- [Contacts](/contacts)
 
-**Departments**
+- [Departments](/departments)
 
-**Facilities** 
+- [Facilities](/facilities)
 
-**Operating Schedules**
+- [Operating Schedules](/operating-schedules)
 
-**Processes**
+- [Processes](/processes)
 
-**Regions**
+- [Regions](/regions)
 
-**Service Costs**
+- [Service Costs](/service-costs)
 
-**Utility Bills**
+- [Utility Bills](/utility-bills)
 
-**Utility Meters** 
+- [Utility Meters](/utility-meters)
 
-**Utility Provider** 
+- [Utility Provider](/utility-provider)
 
-**Utility Rates**
+- [Utility Rates](/utility-rates)
