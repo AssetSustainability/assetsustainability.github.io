@@ -8,4 +8,28 @@ tags:
 - setup-screen
 ---
 
-## **Setup Screen**
+## **Setup Overview**
+
+**Company Profile** 
+
+**Contacts**
+
+**Departments**
+
+**Facilities** 
+
+**Operating Schedules**
+
+**Processes**
+
+**Regions**
+
+**Service Costs**
+
+**Utility Bills**
+
+**Utility Meters** 
+
+**Utility Provider** 
+
+**Utility Rates**
