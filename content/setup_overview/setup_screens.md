@@ -7,7 +7,8 @@ sequence: 1
 tags:
 - setup-screen
 ---
-### **Setup Overview**
+
+## **Setup Overview**
 
 - [Company Profile](/company-profile) 
 
