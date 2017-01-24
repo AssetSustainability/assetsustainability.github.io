@@ -8,7 +8,7 @@ tags:
 - setup-screen
 ---
 
-## **Setup Overview**
+### **Setup Overview**
 
 - [Company Profile](/company-profile) 
 
