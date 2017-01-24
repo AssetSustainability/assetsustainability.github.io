@@ -10,7 +10,7 @@ tags:
 
 ## **Setup Overview**
 
-**Company Profile** 
+- [Company Profile](company-profile/) 
 
 **Contacts**
 
