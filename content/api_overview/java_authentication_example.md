@@ -10,7 +10,7 @@ tags:
 
 ##Send a request to Motors@Work, Java example
 
-The following code shows how to call the Motors@Work authentication endpoint using Java and basic authentication.
+The following codes shows how to call the Motors@Work authentication endpoint using Java and basic authentication.
 {% highlight java%}
     private void sendGet(String user, String password) throws Exception {
         String userEncryption = String.format("%s:%s",user,password);
