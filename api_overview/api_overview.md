@@ -39,7 +39,7 @@ If not successful, the response will look like this:
 #### <a name="Adding a measurement"></a> Adding a measurement
 Test your Motors@Work Adding a Measurement by sending a PUT request to https://www.app.motorsatwork.com//api/1.0/rest/motor/external/measurement with HTTP basic access authentication using valid Motors@Work credentials included in the request header.
 
-The PUT Request will have the following format
+The PUT Request will have the following format.
 {% highlight json%}
   {
   "data": [
@@ -64,4 +64,22 @@ The PUT Request will have the following format
   ]
 }
 {% endhighlight %}
+
+| API Field                                                     | M@W Field[Screen\Tab\Field     |  
+| ------------------------------------------------------------- |:-------------:|  
+| referenceNumber                                           	| My Motors \ Edit Details \ Reference Number            |  
+| measurementDate                     				| My Motors \ Measurements \ Date           |  
+| voltageAB                     				| My Motors \ Measurements \ Voltage AB           |  
+| voltageBC                     				| My Motors \ Measurements \ Voltage BC           |  
+| voltageCA                     				| My Motors \ Measurements \ Voltage CA           |  
+| currentA	                     				| My Motors \ Measurements \ Current A           |  
+| currentB	                     				| My Motors \ Measurements \ Current B           |  
+| currentC	                     				| My Motors \ Measurements \ Current C           |  
+| powerFactor                     				| My Motors \ Measurements \ Power Facor(%)           |  
+| measuredSpeed                     				| My Motors \ Measurements \ Measured Speed           |
+| powerDraw                     				| My Motors \ Measurements \ Power Draw           |
+| totalHarmonicDistortion                			| My Motors \ Measurements \ THD           |
+| insulationResistance                     			| My Motors \ Measurements \ Insulation Resistance           |
+| vibration		                     			| My Motors \ Measurements \ Vibration (in\sec)           |
+| surgeMotorCircuit                     			| My Motors \ Measurements \ Surge /Motor Circuit(%)           |
 
