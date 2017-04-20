@@ -35,3 +35,33 @@ If not successful, the response will look like this:
 {% endhighlight %}
 
 [Java Example](/api-overview-java-authentication/)
+
+#### <a name="Adding a measurement"></a> Adding a measurement
+Test your Motors@Work Adding a Measurement by sending a PUT request to https://www.app.motorsatwork.com//api/1.0/rest/motor/external/measurement with HTTP basic access authentication using valid Motors@Work credentials included in the request header.
+
+The PUT Request will have the following format
+{% highlight json%}
+  {
+  "data": [
+    {
+  "referenceNumber": "MOTORTEST3",
+  "measurementDate": "2017-04-05T12:37:53.000Z",
+  "voltageAB": 450,
+  "voltageBC": 400,
+  "voltageCA": 380,
+  "currentA": 5,
+  "currentB": 6,
+  "currentC": 7,
+  "powerFactor": 90,
+   "measuredSpeed": 1800,
+   "powerDraw": 50,
+   "totalHarmonicDistortion": 10,
+   "insulationResistance": 20,
+   "vibration": 20,
+   "surgeMotorCircuit": 10 
+   
+	}
+  ]
+}
+{% endhighlight %}
+
