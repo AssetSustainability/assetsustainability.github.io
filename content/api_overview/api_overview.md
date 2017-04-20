@@ -18,7 +18,7 @@ The Motors@Work public API uses REST which requires authentication on every requ
 | Endpoint                                                      | HTTP verb     | Purpose                  |
 | ------------------------------------------------------------- |:-------------:| ------------------------ |
 | /api/1.0/rest/test                                            | GET           | [Authentication Testing](#Authentication Testing) |
-| /api/1.0/rest/motor/external/measurement                      | PUT           | Adding a measurement     |
+| /api/1.0/rest/motor/external/measurement                      | PUT           | [Adding a measurement](#Adding a measurement)     |
 
 #### <a name="Authentication Testing"></a> Authentication Testing
 Test your Motors@Work authentication by sending a GET request to https://www.motorsatwork.com/api/1.0/rest/test with HTTP basic access authentication using valid Motors@Work credentials included in the request header.
@@ -35,3 +35,5 @@ If not successful, the response will look like this:
 {% endhighlight %}
 
 [Java Example](/api-overview-java-authentication/)
+
+#### <a name="Adding a measurement"></a> Adding a measurement
