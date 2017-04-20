@@ -39,13 +39,33 @@ If not successful, the response will look like this:
 #### <a name="Adding a measurement"></a> Adding a measurement
 Test your Motors@Work Adding a Measurement by sending a PUT request to https://www.app.motorsatwork.com//api/1.0/rest/motor/external/measurement with HTTP basic access authentication using valid Motors@Work credentials included in the request header.
 
-## Request 
-The PUT Request will have the following format.
+###### Request 
+
+The PUT Request will have the following format. The JSON Object is an array and can receive multiple readings in a single request. 
+
 {% highlight json%}
-  {
+ {
   "data": [
     {
-  "referenceNumber": "MOTORTEST3",
+  "referenceNumber": "OWASA - WTUL9215MO",
+  "measurementDate": "2017-04-05T12:37:53.000Z",
+  "voltageAB": 450,
+  "voltageBC": 400,
+  "voltageCA": 380,
+  "currentA": 5,
+  "currentB": 6,
+  "currentC": 7,
+  "powerFactor": 90,
+   "measuredSpeed": 1800,
+   "powerDraw": 50,
+   "totalHarmonicDistortion": 10,
+   "insulationResistance": 20,
+   "vibration": 20,
+   "surgeMotorCircuit": 10 
+   
+	},
+	 {
+  "referenceNumber": "OWASA - WTUL9215MO",
   "measurementDate": "2017-04-05T12:37:53.000Z",
   "voltageAB": 450,
   "voltageBC": 400,
@@ -66,7 +86,7 @@ The PUT Request will have the following format.
 }
 {% endhighlight %}
 
-## Request Mapping
+###### Request Mapping
 
 | API Field                                                     | M@W Field[Screen\Tab\Field     |  
 | ------------------------------------------------------------- |:-------------:|  
@@ -86,4 +106,19 @@ The PUT Request will have the following format.
 | vibration		                     			| My Motors \ Measurements \ Vibration (in\sec)           |
 | surgeMotorCircuit                     			| My Motors \ Measurements \ Surge /Motor Circuit(%)           |
 
-## Response
+###### Response if Succesful
+
+The UUID Retruned is the internal measurement ID that was created for your reference.
+
+{% highlight json%}
+  {"results":[{"id":"d9ffde38-a449-4b71-8bd8-1a9697786afd"},{"id":"47183416-28fa-4859-a706-a8b67bfbeae1"}]}
+{% endhighlight %}
+
+###### Response if Error
+
+{% highlight json%}
+  {"results":[{"errors":{"entity":{"errorMessages":["Could not find a matching record."]}},"data":""}]}
+{% endhighlight %}
+
+
+
