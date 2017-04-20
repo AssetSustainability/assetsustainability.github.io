@@ -39,6 +39,7 @@ If not successful, the response will look like this:
 #### <a name="Adding a measurement"></a> Adding a measurement
 Test your Motors@Work Adding a Measurement by sending a PUT request to https://www.app.motorsatwork.com//api/1.0/rest/motor/external/measurement with HTTP basic access authentication using valid Motors@Work credentials included in the request header.
 
+## Request 
 The PUT Request will have the following format.
 {% highlight json%}
   {
@@ -65,6 +66,8 @@ The PUT Request will have the following format.
 }
 {% endhighlight %}
 
+## Request Mapping
+
 | API Field                                                     | M@W Field[Screen\Tab\Field     |  
 | ------------------------------------------------------------- |:-------------:|  
 | referenceNumber                                           	| My Motors \ Edit Details \ Reference Number            |  
@@ -83,3 +86,4 @@ The PUT Request will have the following format.
 | vibration		                     			| My Motors \ Measurements \ Vibration (in\sec)           |
 | surgeMotorCircuit                     			| My Motors \ Measurements \ Surge /Motor Circuit(%)           |
 
+## Response
