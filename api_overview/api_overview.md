@@ -88,7 +88,7 @@ The PUT Request will have the following format. The JSON Object is an array and 
 
 ###### Request Mapping
 
-| API Field                                                     | M@W Field[Screen\Tab\Field     |  
+| API Field                                                     | M@W Field[Screen\Tab\Field]     |  
 | ------------------------------------------------------------- |:-------------:|  
 | referenceNumber                                           	| My Motors \ Edit Details \ Reference Number            |  
 | measurementDate                     				| My Motors \ Measurements \ Date           |  
