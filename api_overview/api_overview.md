@@ -7,7 +7,7 @@ sequence: 1
 tags:
 - api
 ---
-## Motors@Work API
+## Motors@Work APIs
 Connect with the Motors@Work using the JSON-based RESTful API.  The Motors@Work REST/HTTP API allows you to send motor and motor based system readings to the Motors@Work analytics engine.
 
 ### Authentication
