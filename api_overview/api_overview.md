@@ -34,6 +34,8 @@ If not successful, the response will look like this:
   {"errors":{"entity":{"errorMessages":["Authorization failure."]}},"data":""}
 {% endhighlight %}
 
+Make sure to add the Http Header  X-Requested-With : XMLHttpRequest
+
 [Java Example](/api-overview-java-authentication/)
 
 #### <a name="Adding a measurement"></a> Adding a measurement
